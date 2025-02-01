@@ -32,7 +32,3 @@ def quick_sort(arr):
 
     return left_part + [pivot_val] + right_part
 
-
-arr = rand.random_list(10)
-
-print(quick_sort(arr))
