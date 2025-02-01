@@ -10,8 +10,5 @@ def bubble_sort(lis):
                 swapped = True
         if not swapped:
             break   
-    print(lis)
+    return lis
 
-lis = rand.random_list(5)
-#lis = [73,14,53,27]
-bubble_sort(lis)
