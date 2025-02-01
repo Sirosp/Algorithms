@@ -14,6 +14,3 @@ def selection_sort(arr):
         
     return arr
 
-arr = rand.random_list(10)
-
-print(selection_sort(arr))
